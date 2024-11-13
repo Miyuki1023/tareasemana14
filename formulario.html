@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mi sitio web</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pedidos.html">Pedidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Imagenes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Formulario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="scrollspy.html">Informacion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ 
+<div id="formulario" style="padding: 0px 20px 0px 20px; align-items: center; height: 100vh; width: auto; align-content: center; text-align: center;">
+    <div class="mb-3 row">
+        <h3>Formulario de contacto</h3><br><br>
+        <label for="staticEmail" class="col-sm-2 col-form-label">Email:</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputPassword">
+          </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Password:</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputCelular" class="col-sm-2 col-form-label">Celular:</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="inputCelular">
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Comentario:</label>
+        <div class="col-sm-10">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+      <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+      <button type="button" id="regresar" onclick="regresar()" class="btn btn-secondary btn-sm">Regresar</button>
+</div>
+
+<footer class="bg-dark text-white text-center text-lg-start mt-4">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Sobre nosotros</h5>
+          <p>
+            Somos una empresa dedicada a ofrecer productos de alta calidad, comprometida con la innovación y la satisfacción del cliente.
+          </p>
+        </div>
+  
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Enlaces</h5>
+          <ul class="list-unstyled">
+            <li><a href="#inicio" class="text-white">Inicio</a></li>
+            <li><a href="galeria.html" class="text-white">Productos</a></li>
+            <li><a href="pedidos.html" class="text-white">Servicios</a></li>
+            <li><a href="formulario.html" class="text-white">Contacto</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Síguenos</h5>
+          <ul class="list-unstyled d-flex justify-content-center">
+            <li>     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+                <a href="https://www.facebook.com/privacy/consent/gdp/?params%5Bapp_id%5D=1862952583919182&params%5Bdisplay%5D=%22popup%22&params%5Bdomain%5D=%22www.tiktok.com%22&params%5Bfallback_redirect_uri%5D=%22https%3A%5C%2F%5C%2Fwww.tiktok.com%5C%2Flogin%3Flang%3Des%26redirect_url%3Dhttps%5Cu00253A%5Cu00252F%5Cu00252Fwww.tiktok.com%5Cu00252Fupload%5Cu00253Flang%5Cu00253Des%22&params%5Bkid_directed_site%5D=false&params%5Blogger_id%5D=%22f7e20dbed2a63cdca%22&params%5Bnext%5D=%22confirm%22&params%5Bredirect_uri%5D=%22https%3A%5C%2F%5C%2Fstaticxx.facebook.com%5C%2Fx%5C%2Fconnect%5C%2Fxd_arbiter%5C%2F%3Fversion%3D46%23cb%3Dfbd833aa1a8ddd707%26domain%3Dwww.tiktok.com%26is_canvas%3Dfalse%26origin%3Dhttps%5Cu00253A%5Cu00252F%5Cu00252Fwww.tiktok.com%5Cu00252Ff73c56b1063309b6b%26relation%3Dopener%26frame%3Dfa077d9eb312d1fda%22&params%5Bresponse_type%5D=%22token%2Csigned_request%2Cgraph_domain%22&params%5Breturn_scopes%5D=false&params%5Bscope%5D=%5B%5D&params%5Bsdk%5D=%22joey%22&params%5Bsteps%5D=%7B%7D&params%5Btp%5D=%22unspecified%22&params%5Bcui_gk%5D=%22%5BPASS%5D%3Alogin_platformization_joey%2Clogin_platformization_confirm%22&params%5Bis_limited_login_shim%5D=false&source=gdp_delegated" class="text-white me-4"><i class="fa fa-facebook-f"></i></a></li>
+            <li>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+                <a href="https://x.com/" class="text-white me-4"><i class="fa fa-twitter"></i></a></li>
+            <li>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+                <a href="https://www.instagram.com/kahorinohika/" class="text-white me-4"><i class="fa fa-instagram"></i></a></li>
+            <li>    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+                <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Derechos reservados:
+      <a class="text-white" href="#">Misitioweb.com</a>
+    </div>
+  </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script>
+        function regresar(){
+            window.location.href='index.html';
+
+        }
+      </script>
+
+</body>
+</html>
